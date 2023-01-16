@@ -1,0 +1,32 @@
+# init
+git init
+
+# git status
+git status
+
+# user name
+git config user.name "<YOUR_NAME>“
+
+# user email
+git config user.email "<YOUR_EMAIL>"
+
+# git add
+git add first.py
+
+# git commit
+git commit -m "Add my first file"
+
+# git create branch
+git branch qa
+
+# git show bracnhes
+git branch
+
+# git go to branch
+git checkout qa
+
+# git merge branch
+git merge qa
+
+#git log
+git log
