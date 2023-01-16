@@ -1,0 +1,16 @@
+https://python-poetry.org/docs/ 
+
+# Windows installation:
+$ (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
+
+# Mac / Linux installation:
+$ curl -sSL https://install.python-poetry.org | python3 -
+
+# init project
+$ poetry new poetry-demo
+
+# install changes
+$ poetry install
+
+# install specific dependency
+$ poetry add pendulum==2.1.2
