@@ -1,0 +1,47 @@
+# install using pip
+$ pip install pytest
+
+# install using poetry
+$ poetry add pytest==5.2
+
+# test all
+$ pytest
+
+# test a cretain file
+$ pytest test_dir/file_name
+
+
+# assert
+def inc(x):
+    return x + 1
+
+
+def test_answer():
+    assert inc(3) == 5
+
+
+
+# fixture
+import pytest
+
+
+@pytest.fixture
+def my_fixture():
+    return "fixture value"
+    
+    
+def test_example(my_fixture):
+    assert my_fixture == "fixture value"
+
+
+# parameterized test
+import pytest
+
+
+@pytest.fixture(params=[1, 2, 3, 4, 5])
+def number(request):
+    yield request.param
+    
+    
+def test_number_is_integer(number):
+    assert isinstance(number, int)
