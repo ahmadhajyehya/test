@@ -18,7 +18,7 @@ def run4(name):
 run1()
 my_word = run2()
 run3('daniel')
-my_word = run('daniel')
+my_word = run4('daniel')
 
 # empty return
 def r():
