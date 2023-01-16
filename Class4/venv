@@ -1,0 +1,8 @@
+$ python3 -m venv test-env # test-env is the directory name
+
+
+# Windows users
+$ test-env\Scripts\activate.bat
+
+# Mac / Linux users
+$ source test-env/bin/activate
