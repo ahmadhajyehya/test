@@ -12,7 +12,7 @@ class TestTranslatePage(TestCase):
         self.translate_page = TranslatePage(self.driver)
 
     def test_translate_box(self):
-        self.translate_page.send_text('hello')
+        self.translate_page.send_text()
 
     def tearDown(self):
         self.driver.quit()
