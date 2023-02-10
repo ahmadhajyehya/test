@@ -11,10 +11,10 @@ poetry add allure-pytest OR $ pip install allure-pytest
 allure generate
 
 # Run all tests and add to report
-pytest --alluredir=alure-reports
+pytest --alluredir=allure-reports
 
 # Run a specific tests folder and add to report
-pytest my_folder/ --alluredir=alure-reports
+pytest my_folder/ --alluredir=allure-reports
 
 # Run Allure server
 allure serve allure-report/
