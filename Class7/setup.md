@@ -15,7 +15,7 @@ https://sites.google.com/chromium.org/driver/downloads
 ----------------------------------------------------------------------------
 
 ## 2. Add Selenium Webdriver libraries:
-### A. Go to [selenium PyPi page](https://pypi.org/project/selenium/) to check for the latest version 
+### A. Go to [selenium PyPi page](https://pypi.org/project/selenium/) to check for the latest version
 ### B. Run `$ poetry add selenium==4.7.2`
 
 
@@ -32,6 +32,13 @@ from selenium.webdriver.chrome.service import Service
 
 driver = webdriver.Chrome(service=Service("<PATH_TO_CHROMEDRIVER>"))
 ```
-    
+
 ### C. Change the <PATH_TO_CHROMEDRIVER> to the real path your chromedriver.exe file is in (without deleting chromedriver.exe).
 
+
+### Mac user only!
+After first code run, you will get the below error:  
+![alt text](https://github.com/Dgotlieb/Selenium-Java/blob/master/images/error.png)  
+
+To fix it, you will need to allow the usage of the driver via the security settings in your Mac:  
+![alt text](https://github.com/Dgotlieb/Selenium-Java/blob/master/images/allow.png)
