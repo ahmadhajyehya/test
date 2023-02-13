@@ -34,9 +34,11 @@ driver = webdriver.Chrome(service=Service("<PATH_TO_CHROMEDRIVER>"))
 ```
 
 ### C. Change the <PATH_TO_CHROMEDRIVER> to the real path your chromedriver.exe file is in (without deleting chromedriver.exe).
-
-
-### Mac user only!
+  
+    
+    
+  
+### Mac users only!
 After first code run, you will get the below error:  
 ![alt text](https://github.com/Dgotlieb/Selenium-Java/blob/master/images/error.png)  
 
