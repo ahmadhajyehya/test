@@ -1,5 +1,7 @@
 https://python-poetry.org/docs/ 
 
+https://www.jetbrains.com/help/pycharm/poetry.html#c2dbb15c
+
 # Windows installation:
 $ (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
 
