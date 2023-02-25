@@ -8,7 +8,7 @@ conn.autocommit(True)
 cursor = conn.cursor()
 
 # Updating data inside the table
-cursor.execute("UPDATE users SET name = ‘jeff' WHERE id = 1")
+cursor.execute("UPDATE users SET name = 'jeff' WHERE id = 1")
 
 cursor.close()
 conn.close()
