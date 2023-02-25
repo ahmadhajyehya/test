@@ -8,7 +8,7 @@ conn.autocommit(True)
 cursor = conn.cursor()
 
 # Inserting data into table
-cursor.execute("INSERT into users (name, id) VALUES ('john', 5)")
+cursor.execute("INSERT into users (name, id) VALUES ('john', 1)")
 
 cursor.close()
 conn.close()
