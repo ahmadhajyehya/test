@@ -8,6 +8,8 @@ scoop install allure
 https://drive.google.com/drive/folders/12ocixjd5t8uNo1TCDp8qig_NszZqqY09?usp=share_link
 
 # Add Java & Scoop to PATH 
+C:\Users\<USER_NAME>\scoop\shims
+
 
 # Python install
 poetry add allure-pytest OR $ pip install allure-pytest
